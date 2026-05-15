@@ -1,0 +1,29 @@
+p{
+    font-size:2vw;
+}
+body {
+ font:italic bold 15px/30px serif;
+}
+.search{
+    width:100px;
+    height:100px;
+    fill:red;
+    stroke:blue;
+    stroke-width:30;
+    
+    transition:0.3s;
+}
+.search:hover{
+    fill:brown;
+    stroke:brown;
+    stroke-width:30;
+    transform:scale(1.1)
+
+}
+
+
+
+li{display:block;margin:8px;}
+span{background-color:blue;color:white;}
+p{background-color:brown;}
+p.ext{display:inline-block;margin:12px;}
